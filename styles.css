@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.grupo-de-entrada {
+    margin-bottom: 20px;
+}
+
+.coluna-de-cabecalho {
+    text-align: center;
+}
+
+
+.data-row {
+    display: flex;
+    margin-top: 5px;
+}
+
+.data-row input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.selecao-de-formato {
+    width: 100%;
+    height: 26px;
+    padding: 5px;
+    text-align: center;
+    padding-bottom: 2px;
+    margin-bottom: 0.75px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+.campo-de-entrada {
+    width: 100%;
+    height: 26px;
+    padding: 5px;
+    padding-bottom: 2px;
+    margin-bottom: 0.75px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+.invalid-input {
+    border: 1px solid red;
+}
+
+h1 {
+    text-align: center;
+}
+
+.tabela {
+    margin-bottom: 20px;
+    height: auto;
+    width: auto;
+    background-color: #f0f0f0;
+}
+
+.download {
+    opacity: 80%;
+    color: rgb(130, 175, 119);
+}
+
+.quadrado{
+    width: 4%;
+}
+.gerar {
+    margin-top: 3%;
+    text-align: center;
+    align-items: center;
+}
+
+button {
+    box-shadow: 2px 2px 3px rgb(109, 106, 106);
+    width: auto;
+    height: 20px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    background-color: rgb(50, 77, 10);
+    border: 0.25px;
+    opacity: 60%;
+}
+
+@media(max-width: 500px){
+    label{
+        margin: auto
+    }
+    .quadrado{
+        width: 10%;
+    }
+    .celular{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
